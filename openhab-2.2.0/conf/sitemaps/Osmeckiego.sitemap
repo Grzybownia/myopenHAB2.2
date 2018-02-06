@@ -8,16 +8,16 @@ sitemap Osmeckiego label="Osmeckiego" {
         Switch item=SR_MainLight label="SR_MainLight"
     }
 /* 
-contact w piwnicy
-contact na balkonie
-korytarz
-    contak w drziwach wejsciowych
-
 maly pookj
     lampa sufit
     lampa ula biurko
     lampa kuba biurko
     lutownica
+    rolety
+    drukarka
+    komputer
+    temperatura
+    termostat na grzejniku
 
 duzy pokoj
     lampa sufit
@@ -25,20 +25,32 @@ duzy pokoj
     kwadralampa
     ekran
     rzutnik
+    rolety
+    temperatura
+    termostat na grzejniku
 
 kuchnia
     przedluzacz w kuchni - plyta zmywarka itp
     przedluzacz czajnik
     czajnik
     lampa
+    rolety
 
 korytarz
-    lampy obie
+    lampy sufit obie
     ruch przy drzwiach
 
 lazienka
     wilgotnosc
     lampy obie
+    gniazdka oba
+
+balkon 
+    contact na balkonie
+
+piwnica
+    contact w piwnicy
+
 
  */
 
