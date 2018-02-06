@@ -1,0 +1,3 @@
+Switch SR_MainLight "MainLight" <switch> (Group) { channel="example:thing:channel" }
+Contact Item_ID1 "Item Label" <icon> (Group) { channel="example:thing:channel" }
+Switch Presence_KubowyVibe "Presence_KubowyVibe" <switch> (Group) { channel="network:pingdevice:32fbef31:online" }

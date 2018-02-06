@@ -1,0 +1,53 @@
+{
+  "network_pingdevice_32fbef31_online -\u003e network:pingdevice:32fbef31:online": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "32fbef31",
+          "online"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "network_pingdevice_32fbef31_online"
+    }
+  },
+  "network_pingdevice_32fbef31_latency -\u003e network:pingdevice:32fbef31:latency": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "32fbef31",
+          "latency"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "network_pingdevice_32fbef31_latency"
+    }
+  },
+  "network_pingdevice_32fbef31_lastseen -\u003e network:pingdevice:32fbef31:lastseen": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "32fbef31",
+          "lastseen"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "network_pingdevice_32fbef31_lastseen"
+    }
+  }
+}

@@ -1,0 +1,357 @@
+2018-02-06 19:15:54.274 [thome.event.ExtensionEvent] - Extension 'package-standard' has been installed.
+2018-02-06 19:16:04.825 [thome.event.ExtensionEvent] - Extension 'ui-homebuilder' has been installed.
+2018-02-06 19:16:04.832 [thome.event.ExtensionEvent] - Extension 'ui-basic' has been installed.
+2018-02-06 19:16:04.838 [thome.event.ExtensionEvent] - Extension 'ui-habpanel' has been installed.
+2018-02-06 19:16:04.839 [thome.event.ExtensionEvent] - Extension 'ui-paper' has been installed.
+2018-02-06 19:16:56.653 [thome.event.ExtensionEvent] - Extension 'binding-network' has been installed.
+2018-02-06 19:35:32.347 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_1_80' has been added.
+2018-02-06 19:35:32.444 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_1' has been added.
+2018-02-06 19:35:32.696 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_4_80' has been added.
+2018-02-06 19:35:32.751 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_4_554' has been added.
+2018-02-06 19:35:32.800 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_4' has been added.
+2018-02-06 19:35:57.895 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_241' has been added.
+2018-02-06 19:35:59.191 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_56_1_80' has been added.
+2018-02-06 19:35:59.210 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_56_1_554' has been added.
+2018-02-06 19:35:59.273 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_56_1' has been added.
+2018-02-06 19:36:28.347 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_1' has been removed.
+2018-02-06 19:36:28.372 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_4_80' has been removed.
+2018-02-06 19:36:28.374 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_4' has been removed.
+2018-02-06 19:36:28.378 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_56_1' has been removed.
+2018-02-06 19:36:28.392 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_241' has been removed.
+2018-02-06 19:36:28.394 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_4_554' has been removed.
+2018-02-06 19:36:28.395 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_1_80' has been removed.
+2018-02-06 19:36:28.396 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_56_1_80' has been removed.
+2018-02-06 19:36:28.400 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_56_1_554' has been removed.
+2018-02-06 19:36:28.826 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_1_80' has been added.
+2018-02-06 19:36:28.921 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_1' has been added.
+2018-02-06 19:36:29.242 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_2' has been added.
+2018-02-06 19:36:29.451 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_4_80' has been added.
+2018-02-06 19:36:29.497 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_4' has been added.
+2018-02-06 19:36:29.509 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_4_554' has been added.
+2018-02-06 19:36:55.888 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_241_80' has been added.
+2018-02-06 19:36:56.003 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_241' has been added.
+2018-02-06 19:36:57.393 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_56_1_80' has been added.
+2018-02-06 19:36:57.408 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_56_1_554' has been added.
+2018-02-06 19:36:57.521 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_56_1' has been added.
+2018-02-06 19:38:57.361 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_1' has been removed.
+2018-02-06 19:38:57.366 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_4' has been removed.
+2018-02-06 19:38:57.367 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_2' has been removed.
+2018-02-06 19:38:57.368 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_241' has been removed.
+2018-02-06 19:39:27.363 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_56_1' has been removed.
+2018-02-06 19:41:55.181 [hingStatusInfoChangedEvent] - 'network:pingdevice:71fef6e5' changed from UNINITIALIZED to INITIALIZING
+2018-02-06 19:41:55.388 [hingStatusInfoChangedEvent] - 'network:pingdevice:71fef6e5' changed from INITIALIZING to ONLINE
+2018-02-06 19:41:55.456 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:71fef6e5' has been updated.
+2018-02-06 19:41:55.460 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:71fef6e5' has been updated.
+2018-02-06 19:41:55.465 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:71fef6e5' has been updated.
+2018-02-06 19:41:55.469 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:71fef6e5' has been updated.
+2018-02-06 19:43:04.248 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:71fef6e5' has been updated.
+2018-02-06 19:44:41.661 [hingStatusInfoChangedEvent] - 'network:pingdevice:71fef6e5' changed from ONLINE to REMOVING
+2018-02-06 19:44:41.664 [hingStatusInfoChangedEvent] - 'network:pingdevice:71fef6e5' changed from REMOVING to REMOVED
+2018-02-06 19:44:41.704 [hingStatusInfoChangedEvent] - 'network:pingdevice:71fef6e5' changed from REMOVED to UNINITIALIZED
+2018-02-06 19:44:41.721 [hingStatusInfoChangedEvent] - 'network:pingdevice:71fef6e5' changed from REMOVED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2018-02-06 19:44:46.757 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_4_80' has been removed.
+2018-02-06 19:44:46.792 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_241_80' has been removed.
+2018-02-06 19:44:46.796 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_4_554' has been removed.
+2018-02-06 19:44:46.799 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_1_80' has been removed.
+2018-02-06 19:44:46.801 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_56_1_80' has been removed.
+2018-02-06 19:44:46.804 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_56_1_554' has been removed.
+2018-02-06 19:44:47.260 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_1_80' has been added.
+2018-02-06 19:44:47.327 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_1' has been added.
+2018-02-06 19:44:47.623 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_4_80' has been added.
+2018-02-06 19:44:47.644 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_4_554' has been added.
+2018-02-06 19:44:47.682 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_4' has been added.
+2018-02-06 19:45:12.259 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_241' has been added.
+2018-02-06 19:45:13.769 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_56_1_80' has been added.
+2018-02-06 19:45:13.782 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_56_1_554' has been added.
+2018-02-06 19:45:13.861 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_56_1' has been added.
+2018-02-06 19:45:22.538 [.ItemChannelLinkAddedEvent] - Link 'network_pingdevice_32fbef31_online-network:pingdevice:32fbef31:online' has been added.
+2018-02-06 19:45:22.546 [.ItemChannelLinkAddedEvent] - Link 'network_pingdevice_32fbef31_latency-network:pingdevice:32fbef31:latency' has been added.
+2018-02-06 19:45:22.558 [.ItemChannelLinkAddedEvent] - Link 'network_pingdevice_32fbef31_lastseen-network:pingdevice:32fbef31:lastseen' has been added.
+2018-02-06 19:45:22.614 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from UNINITIALIZED to INITIALIZING
+2018-02-06 19:45:22.865 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from INITIALIZING to ONLINE
+2018-02-06 19:45:22.893 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:32fbef31' has been updated.
+2018-02-06 19:45:22.903 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:32fbef31' has been updated.
+2018-02-06 19:45:22.914 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:32fbef31' has been updated.
+2018-02-06 19:45:22.919 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:32fbef31' has been updated.
+2018-02-06 19:45:23.078 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from NULL to UNDEF
+2018-02-06 19:45:27.916 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_online changed from NULL to OFF
+2018-02-06 19:45:27.929 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from NULL to -1.0
+2018-02-06 19:45:27.931 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from -1.0 to UNDEF
+2018-02-06 19:46:57.389 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_1' has been removed.
+2018-02-06 19:46:57.394 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_4' has been removed.
+2018-02-06 19:47:27.395 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_56_1' has been removed.
+2018-02-06 19:47:27.402 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_0_241' has been removed.
+2018-02-06 19:54:57.426 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_4_80' has been removed.
+2018-02-06 19:54:57.435 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_4_554' has been removed.
+2018-02-06 19:54:57.441 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_0_1_80' has been removed.
+2018-02-06 19:55:27.445 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_56_1_80' has been removed.
+2018-02-06 19:55:27.446 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_56_1_554' has been removed.
+2018-02-06 19:58:32.568 [.ItemChannelLinkAddedEvent] - Link 'network_pingdevice_32fbef31_online-network:pingdevice:32fbef31:online' has been added.
+2018-02-06 19:58:32.605 [.ItemChannelLinkAddedEvent] - Link 'network_pingdevice_32fbef31_latency-network:pingdevice:32fbef31:latency' has been added.
+2018-02-06 19:58:32.650 [.ItemChannelLinkAddedEvent] - Link 'network_pingdevice_32fbef31_lastseen-network:pingdevice:32fbef31:lastseen' has been added.
+2018-02-06 19:58:32.984 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from UNINITIALIZED to INITIALIZING
+2018-02-06 19:58:33.291 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from INITIALIZING to ONLINE
+2018-02-06 19:58:34.719 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from NULL to UNDEF
+2018-02-06 19:58:38.402 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_online changed from NULL to OFF
+2018-02-06 19:58:38.480 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from NULL to -1.0
+2018-02-06 19:58:38.495 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from -1.0 to UNDEF
+2018-02-06 20:00:46.418 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_online changed from OFF to ON
+2018-02-06 20:00:46.430 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from UNDEF to 2967.0
+2018-02-06 20:00:46.463 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from UNDEF to 2018-02-06T20:00:46.402+0100
+2018-02-06 20:00:46.469 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:32fbef31' has been updated.
+2018-02-06 20:01:51.411 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_online changed from ON to OFF
+2018-02-06 20:01:51.418 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2967.0 to UNDEF
+2018-02-06 20:01:51.427 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:32fbef31' has been updated.
+2018-02-06 20:02:54.401 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_online changed from OFF to ON
+2018-02-06 20:02:54.416 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from UNDEF to 2980.0
+2018-02-06 20:02:54.432 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:00:46.402+0100 to 2018-02-06T20:02:54.401+0100
+2018-02-06 20:02:54.447 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:32fbef31' has been updated.
+2018-02-06 20:03:59.407 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_online changed from ON to OFF
+2018-02-06 20:03:59.427 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:32fbef31' has been updated.
+2018-02-06 20:03:59.428 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2980.0 to UNDEF
+2018-02-06 20:04:36.485 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from ONLINE to UNINITIALIZED
+2018-02-06 20:04:36.485 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2018-02-06 20:04:36.609 [temChannelLinkRemovedEvent] - Link 'network_pingdevice_32fbef31_online => network:pingdevice:32fbef31:online' has been removed.
+2018-02-06 20:04:36.609 [temChannelLinkRemovedEvent] - Link 'network_pingdevice_32fbef31_latency => network:pingdevice:32fbef31:latency' has been removed.
+2018-02-06 20:04:36.609 [temChannelLinkRemovedEvent] - Link 'network_pingdevice_32fbef31_lastseen => network:pingdevice:32fbef31:lastseen' has been removed.
+2018-02-06 20:04:56.543 [.ItemChannelLinkAddedEvent] - Link 'network_pingdevice_32fbef31_online-network:pingdevice:32fbef31:online' has been added.
+2018-02-06 20:04:56.590 [.ItemChannelLinkAddedEvent] - Link 'network_pingdevice_32fbef31_latency-network:pingdevice:32fbef31:latency' has been added.
+2018-02-06 20:04:56.590 [.ItemChannelLinkAddedEvent] - Link 'network_pingdevice_32fbef31_lastseen-network:pingdevice:32fbef31:lastseen' has been added.
+2018-02-06 20:04:56.652 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from UNINITIALIZED to INITIALIZING
+2018-02-06 20:04:56.820 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from INITIALIZING to ONLINE
+2018-02-06 20:04:58.605 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from NULL to UNDEF
+2018-02-06 20:05:01.911 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_online changed from NULL to OFF
+2018-02-06 20:05:01.927 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from NULL to -1.0
+2018-02-06 20:05:01.927 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from -1.0 to UNDEF
+2018-02-06 20:05:15.588 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from ONLINE to UNINITIALIZED
+2018-02-06 20:05:15.604 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2018-02-06 20:05:15.783 [temChannelLinkRemovedEvent] - Link 'network_pingdevice_32fbef31_online => network:pingdevice:32fbef31:online' has been removed.
+2018-02-06 20:05:15.783 [temChannelLinkRemovedEvent] - Link 'network_pingdevice_32fbef31_latency => network:pingdevice:32fbef31:latency' has been removed.
+2018-02-06 20:05:15.783 [temChannelLinkRemovedEvent] - Link 'network_pingdevice_32fbef31_lastseen => network:pingdevice:32fbef31:lastseen' has been removed.
+2018-02-06 20:05:47.564 [.ItemChannelLinkAddedEvent] - Link 'network_pingdevice_32fbef31_online-network:pingdevice:32fbef31:online' has been added.
+2018-02-06 20:05:47.564 [.ItemChannelLinkAddedEvent] - Link 'network_pingdevice_32fbef31_latency-network:pingdevice:32fbef31:latency' has been added.
+2018-02-06 20:05:47.564 [.ItemChannelLinkAddedEvent] - Link 'network_pingdevice_32fbef31_lastseen-network:pingdevice:32fbef31:lastseen' has been added.
+2018-02-06 20:05:47.689 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from UNINITIALIZED to INITIALIZING
+2018-02-06 20:05:47.845 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from INITIALIZING to ONLINE
+2018-02-06 20:05:49.886 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from NULL to UNDEF
+2018-02-06 20:05:52.916 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_online changed from NULL to OFF
+2018-02-06 20:05:52.932 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from NULL to -1.0
+2018-02-06 20:05:52.947 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from -1.0 to UNDEF
+2018-02-06 20:26:23.235 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_online changed from OFF to ON
+2018-02-06 20:26:23.251 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from UNDEF to 304.0
+2018-02-06 20:26:23.282 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from UNDEF to 2018-02-06T20:26:23.235+0100
+2018-02-06 20:26:23.297 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:32fbef31' has been updated.
+2018-02-06 20:27:23.470 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 304.0 to 154.0
+2018-02-06 20:27:23.475 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:26:23.235+0100 to 2018-02-06T20:27:23.458+0100
+2018-02-06 20:28:23.693 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 154.0 to 199.0
+2018-02-06 20:28:23.694 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:27:23.458+0100 to 2018-02-06T20:28:23.665+0100
+2018-02-06 20:29:24.303 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 199.0 to 604.0
+2018-02-06 20:29:24.305 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:28:23.665+0100 to 2018-02-06T20:29:24.283+0100
+2018-02-06 20:30:24.520 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 604.0 to 201.0
+2018-02-06 20:30:24.522 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:29:24.283+0100 to 2018-02-06T20:30:24.497+0100
+2018-02-06 20:31:24.740 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 201.0 to 204.0
+2018-02-06 20:31:24.748 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:30:24.497+0100 to 2018-02-06T20:31:24.717+0100
+2018-02-06 20:32:24.837 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:31:24.717+0100 to 2018-02-06T20:32:24.784+0100
+2018-02-06 20:32:24.840 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 204.0 to 60.0
+2018-02-06 20:33:25.772 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 60.0 to 959.0
+2018-02-06 20:33:25.779 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:32:24.784+0100 to 2018-02-06T20:33:25.763+0100
+2018-02-06 20:34:30.439 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:32fbef31' has been updated.
+2018-02-06 20:34:30.440 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_online changed from ON to OFF
+2018-02-06 20:34:30.444 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 959.0 to UNDEF
+2018-02-06 20:35:33.410 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_online changed from OFF to ON
+2018-02-06 20:35:33.415 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from UNDEF to 2979.0
+2018-02-06 20:35:33.430 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:32fbef31' has been updated.
+2018-02-06 20:35:33.441 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:33:25.763+0100 to 2018-02-06T20:35:33.403+0100
+2018-02-06 20:36:36.426 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2979.0 to 2961.0
+2018-02-06 20:36:36.461 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:35:33.403+0100 to 2018-02-06T20:36:36.403+0100
+2018-02-06 20:37:39.420 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2961.0 to 2986.0
+2018-02-06 20:37:39.440 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:36:36.403+0100 to 2018-02-06T20:37:39.403+0100
+2018-02-06 20:38:42.420 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2986.0 to 2977.0
+2018-02-06 20:38:42.421 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:37:39.403+0100 to 2018-02-06T20:38:42.403+0100
+2018-02-06 20:39:45.409 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:38:42.403+0100 to 2018-02-06T20:39:45.401+0100
+2018-02-06 20:39:45.410 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2977.0 to 2994.0
+2018-02-06 20:40:48.412 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2994.0 to 2992.0
+2018-02-06 20:40:48.428 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:39:45.401+0100 to 2018-02-06T20:40:48.403+0100
+2018-02-06 20:41:51.423 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2992.0 to 2991.0
+2018-02-06 20:41:51.424 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:40:48.403+0100 to 2018-02-06T20:41:51.403+0100
+2018-02-06 20:42:54.407 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2991.0 to 2993.0
+2018-02-06 20:42:54.433 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:41:51.403+0100 to 2018-02-06T20:42:54.402+0100
+2018-02-06 20:43:57.406 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2993.0 to 2971.0
+2018-02-06 20:43:57.409 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:42:54.402+0100 to 2018-02-06T20:43:57.401+0100
+2018-02-06 20:45:00.419 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2971.0 to 2996.0
+2018-02-06 20:45:00.422 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:43:57.401+0100 to 2018-02-06T20:45:00.402+0100
+2018-02-06 20:46:03.418 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2996.0 to 2990.0
+2018-02-06 20:46:03.425 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:45:00.402+0100 to 2018-02-06T20:46:03.402+0100
+2018-02-06 20:47:06.411 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2990.0 to 2984.0
+2018-02-06 20:47:06.418 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:46:03.402+0100 to 2018-02-06T20:47:06.403+0100
+2018-02-06 20:48:09.424 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2984.0 to 2988.0
+2018-02-06 20:48:09.437 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:47:06.403+0100 to 2018-02-06T20:48:09.402+0100
+2018-02-06 20:49:12.418 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2988.0 to 2994.0
+2018-02-06 20:49:12.427 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:48:09.402+0100 to 2018-02-06T20:49:12.406+0100
+2018-02-06 20:50:15.413 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2994.0 to 2975.0
+2018-02-06 20:50:15.418 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:49:12.406+0100 to 2018-02-06T20:50:15.402+0100
+2018-02-06 20:51:18.420 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2975.0 to 2995.0
+2018-02-06 20:51:18.428 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:50:15.402+0100 to 2018-02-06T20:51:18.407+0100
+2018-02-06 20:52:21.424 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2995.0 to 2980.0
+2018-02-06 20:52:21.432 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:51:18.407+0100 to 2018-02-06T20:52:21.404+0100
+2018-02-06 20:53:24.422 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2980.0 to 2990.0
+2018-02-06 20:53:24.427 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:52:21.404+0100 to 2018-02-06T20:53:24.403+0100
+2018-02-06 20:54:27.416 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2990.0 to 2993.0
+2018-02-06 20:54:27.424 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:53:24.403+0100 to 2018-02-06T20:54:27.406+0100
+2018-02-06 20:55:30.408 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2993.0 to 2983.0
+2018-02-06 20:55:30.418 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:54:27.406+0100 to 2018-02-06T20:55:30.403+0100
+2018-02-06 20:56:33.429 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2983.0 to 2991.0
+2018-02-06 20:56:33.434 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:55:30.403+0100 to 2018-02-06T20:56:33.403+0100
+2018-02-06 20:57:36.414 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2991.0 to 2990.0
+2018-02-06 20:57:36.419 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:56:33.403+0100 to 2018-02-06T20:57:36.402+0100
+2018-02-06 20:58:39.412 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2990.0 to 2996.0
+2018-02-06 20:58:39.413 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:57:36.402+0100 to 2018-02-06T20:58:39.403+0100
+2018-02-06 20:59:42.411 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2996.0 to 2992.0
+2018-02-06 20:59:42.422 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:58:39.403+0100 to 2018-02-06T20:59:42.403+0100
+2018-02-06 21:00:45.422 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2992.0 to 2985.0
+2018-02-06 21:00:45.426 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T20:59:42.403+0100 to 2018-02-06T21:00:45.402+0100
+2018-02-06 21:01:48.420 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2985.0 to 2997.0
+2018-02-06 21:01:48.425 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:00:45.402+0100 to 2018-02-06T21:01:48.404+0100
+2018-02-06 21:02:51.412 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2997.0 to 2990.0
+2018-02-06 21:02:51.416 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:01:48.404+0100 to 2018-02-06T21:02:51.402+0100
+2018-02-06 21:03:54.417 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:02:51.402+0100 to 2018-02-06T21:03:54.402+0100
+2018-02-06 21:04:55.912 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2990.0 to 1493.0
+2018-02-06 21:04:55.916 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:03:54.402+0100 to 2018-02-06T21:04:55.903+0100
+2018-02-06 21:05:57.408 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 1493.0 to 1494.0
+2018-02-06 21:05:57.409 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:04:55.903+0100 to 2018-02-06T21:05:57.401+0100
+2018-02-06 21:06:58.923 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 1494.0 to 1496.0
+2018-02-06 21:06:58.924 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:05:57.401+0100 to 2018-02-06T21:06:58.903+0100
+2018-02-06 21:08:01.915 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 1496.0 to 2993.0
+2018-02-06 21:08:01.920 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:06:58.903+0100 to 2018-02-06T21:08:01.902+0100
+2018-02-06 21:09:04.912 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2993.0 to 2987.0
+2018-02-06 21:09:04.922 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:08:01.902+0100 to 2018-02-06T21:09:04.903+0100
+2018-02-06 21:10:07.923 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2987.0 to 2985.0
+2018-02-06 21:10:07.930 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:09:04.903+0100 to 2018-02-06T21:10:07.902+0100
+2018-02-06 21:11:10.911 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2985.0 to 2993.0
+2018-02-06 21:11:10.931 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:10:07.902+0100 to 2018-02-06T21:11:10.901+0100
+2018-02-06 21:12:13.905 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2993.0 to 2985.0
+2018-02-06 21:12:13.915 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:11:10.901+0100 to 2018-02-06T21:12:13.902+0100
+2018-02-06 21:13:16.915 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2985.0 to 2988.0
+2018-02-06 21:13:16.922 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:12:13.902+0100 to 2018-02-06T21:13:16.901+0100
+2018-02-06 21:14:19.923 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2988.0 to 2994.0
+2018-02-06 21:14:19.927 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:13:16.901+0100 to 2018-02-06T21:14:19.911+0100
+2018-02-06 21:15:22.918 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2994.0 to 2983.0
+2018-02-06 21:15:22.936 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:14:19.911+0100 to 2018-02-06T21:15:22.902+0100
+2018-02-06 21:16:25.907 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2983.0 to 2987.0
+2018-02-06 21:16:25.926 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:15:22.902+0100 to 2018-02-06T21:16:25.902+0100
+2018-02-06 21:17:28.931 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2987.0 to 2978.0
+2018-02-06 21:17:28.940 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:16:25.902+0100 to 2018-02-06T21:17:28.903+0100
+2018-02-06 21:18:31.905 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2978.0 to 2990.0
+2018-02-06 21:18:31.914 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:17:28.903+0100 to 2018-02-06T21:18:31.902+0100
+2018-02-06 21:19:34.916 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2990.0 to 2993.0
+2018-02-06 21:19:34.917 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:18:31.902+0100 to 2018-02-06T21:19:34.904+0100
+2018-02-06 21:20:37.915 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2993.0 to 2992.0
+2018-02-06 21:20:37.926 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:19:34.904+0100 to 2018-02-06T21:20:37.903+0100
+2018-02-06 21:21:40.907 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2992.0 to 2995.0
+2018-02-06 21:21:40.915 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:20:37.903+0100 to 2018-02-06T21:21:40.902+0100
+2018-02-06 21:22:43.927 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2995.0 to 2991.0
+2018-02-06 21:22:43.929 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:21:40.902+0100 to 2018-02-06T21:22:43.902+0100
+2018-02-06 21:23:46.917 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2991.0 to 2993.0
+2018-02-06 21:23:46.918 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:22:43.902+0100 to 2018-02-06T21:23:46.902+0100
+2018-02-06 21:24:49.919 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2993.0 to 2996.0
+2018-02-06 21:24:49.930 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:23:46.902+0100 to 2018-02-06T21:24:49.902+0100
+2018-02-06 21:25:52.918 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:24:49.902+0100 to 2018-02-06T21:25:52.903+0100
+2018-02-06 21:26:55.911 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2996.0 to 2986.0
+2018-02-06 21:26:55.916 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:25:52.903+0100 to 2018-02-06T21:26:55.901+0100
+2018-02-06 21:27:58.910 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2986.0 to 2995.0
+2018-02-06 21:27:58.916 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:26:55.901+0100 to 2018-02-06T21:27:58.903+0100
+2018-02-06 21:29:01.921 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2995.0 to 2989.0
+2018-02-06 21:29:01.922 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:27:58.903+0100 to 2018-02-06T21:29:01.902+0100
+2018-02-06 21:30:04.919 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2989.0 to 2988.0
+2018-02-06 21:30:04.931 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:29:01.902+0100 to 2018-02-06T21:30:04.903+0100
+2018-02-06 21:31:07.916 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2988.0 to 2987.0
+2018-02-06 21:31:07.928 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:30:04.903+0100 to 2018-02-06T21:31:07.903+0100
+2018-02-06 21:32:10.912 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2987.0 to 2995.0
+2018-02-06 21:32:10.918 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:31:07.903+0100 to 2018-02-06T21:32:10.903+0100
+2018-02-06 21:33:13.912 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2995.0 to 2992.0
+2018-02-06 21:33:13.924 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:32:10.903+0100 to 2018-02-06T21:33:13.902+0100
+2018-02-06 21:34:16.926 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2992.0 to 2985.0
+2018-02-06 21:34:16.933 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:33:13.902+0100 to 2018-02-06T21:34:16.902+0100
+2018-02-06 21:35:19.912 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2985.0 to 2988.0
+2018-02-06 21:35:19.917 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:34:16.902+0100 to 2018-02-06T21:35:19.903+0100
+2018-02-06 21:36:22.918 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:35:19.903+0100 to 2018-02-06T21:36:22.904+0100
+2018-02-06 21:37:25.914 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:36:22.904+0100 to 2018-02-06T21:37:25.902+0100
+2018-02-06 21:38:27.418 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2988.0 to 1496.0
+2018-02-06 21:38:27.425 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:37:25.902+0100 to 2018-02-06T21:38:27.407+0100
+2018-02-06 21:39:28.915 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 1496.0 to 1487.0
+2018-02-06 21:39:28.927 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:38:27.407+0100 to 2018-02-06T21:39:28.901+0100
+2018-02-06 21:40:31.916 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 1487.0 to 2985.0
+2018-02-06 21:40:31.927 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:39:28.901+0100 to 2018-02-06T21:40:31.906+0100
+2018-02-06 21:41:34.909 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2985.0 to 2982.0
+2018-02-06 21:41:34.915 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:40:31.906+0100 to 2018-02-06T21:41:34.902+0100
+2018-02-06 21:42:37.935 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2982.0 to 2991.0
+2018-02-06 21:42:37.937 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:41:34.902+0100 to 2018-02-06T21:42:37.901+0100
+2018-02-06 21:43:40.914 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2991.0 to 2977.0
+2018-02-06 21:43:40.948 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:42:37.901+0100 to 2018-02-06T21:43:40.903+0100
+2018-02-06 21:44:43.915 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2977.0 to 2973.0
+2018-02-06 21:44:43.917 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:43:40.903+0100 to 2018-02-06T21:44:43.901+0100
+2018-02-06 21:45:46.912 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2973.0 to 2994.0
+2018-02-06 21:45:46.930 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:44:43.901+0100 to 2018-02-06T21:45:46.903+0100
+2018-02-06 21:46:49.916 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2994.0 to 2975.0
+2018-02-06 21:46:49.932 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:45:46.903+0100 to 2018-02-06T21:46:49.903+0100
+2018-02-06 21:47:52.913 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2975.0 to 2992.0
+2018-02-06 21:47:52.922 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:46:49.903+0100 to 2018-02-06T21:47:52.902+0100
+2018-02-06 21:48:55.909 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2992.0 to 2978.0
+2018-02-06 21:48:55.910 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:47:52.902+0100 to 2018-02-06T21:48:55.901+0100
+2018-02-06 21:49:58.911 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2978.0 to 2996.0
+2018-02-06 21:49:58.923 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:48:55.901+0100 to 2018-02-06T21:49:58.903+0100
+2018-02-06 21:51:01.908 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2996.0 to 2987.0
+2018-02-06 21:51:01.909 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:49:58.903+0100 to 2018-02-06T21:51:01.902+0100
+2018-02-06 21:52:04.913 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2987.0 to 2996.0
+2018-02-06 21:52:04.918 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:51:01.902+0100 to 2018-02-06T21:52:04.903+0100
+2018-02-06 21:53:07.917 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2996.0 to 2988.0
+2018-02-06 21:53:07.922 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:52:04.903+0100 to 2018-02-06T21:53:07.902+0100
+2018-02-06 21:54:10.912 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2988.0 to 2994.0
+2018-02-06 21:54:10.923 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:53:07.902+0100 to 2018-02-06T21:54:10.903+0100
+2018-02-06 21:55:13.916 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2994.0 to 2980.0
+2018-02-06 21:55:13.922 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:54:10.903+0100 to 2018-02-06T21:55:13.902+0100
+2018-02-06 21:56:16.986 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2980.0 to 2990.0
+2018-02-06 21:56:16.987 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:55:13.902+0100 to 2018-02-06T21:56:16.908+0100
+2018-02-06 21:57:19.915 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2990.0 to 2985.0
+2018-02-06 21:57:19.927 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:56:16.908+0100 to 2018-02-06T21:57:19.906+0100
+2018-02-06 21:58:22.909 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2985.0 to 2983.0
+2018-02-06 21:58:22.914 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:57:19.906+0100 to 2018-02-06T21:58:22.901+0100
+2018-02-06 21:59:25.912 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2983.0 to 2991.0
+2018-02-06 21:59:25.914 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:58:22.901+0100 to 2018-02-06T21:59:25.903+0100
+2018-02-06 22:00:28.916 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2991.0 to 2988.0
+2018-02-06 22:00:28.927 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T21:59:25.903+0100 to 2018-02-06T22:00:28.902+0100
+2018-02-06 22:01:31.918 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2988.0 to 2999.0
+2018-02-06 22:01:31.922 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:00:28.902+0100 to 2018-02-06T22:01:31.907+0100
+2018-02-06 22:02:34.911 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2999.0 to 2991.0
+2018-02-06 22:02:34.917 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:01:31.907+0100 to 2018-02-06T22:02:34.903+0100
+2018-02-06 22:03:37.913 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2991.0 to 2986.0
+2018-02-06 22:03:37.925 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:02:34.903+0100 to 2018-02-06T22:03:37.903+0100
+2018-02-06 22:04:40.928 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2986.0 to 2993.0
+2018-02-06 22:04:40.929 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:03:37.903+0100 to 2018-02-06T22:04:40.906+0100
+2018-02-06 22:05:43.910 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2993.0 to 2989.0
+2018-02-06 22:05:43.915 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:04:40.906+0100 to 2018-02-06T22:05:43.902+0100
+2018-02-06 22:06:46.907 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2989.0 to 2994.0
+2018-02-06 22:06:46.917 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:05:43.902+0100 to 2018-02-06T22:06:46.903+0100
+2018-02-06 22:07:49.912 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2994.0 to 2991.0
+2018-02-06 22:07:49.921 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:06:46.903+0100 to 2018-02-06T22:07:49.903+0100
+2018-02-06 22:08:52.904 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:07:49.903+0100 to 2018-02-06T22:08:52.900+0100
+2018-02-06 22:08:52.905 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2991.0 to 2979.0
+2018-02-06 22:09:55.903 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2979.0 to 2997.0
+2018-02-06 22:09:55.907 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:08:52.900+0100 to 2018-02-06T22:09:55.901+0100
+2018-02-06 22:10:57.403 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2997.0 to 1493.0
+2018-02-06 22:10:57.404 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:09:55.901+0100 to 2018-02-06T22:10:57.400+0100
+2018-02-06 22:12:00.418 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 1493.0 to 2998.0
+2018-02-06 22:12:00.421 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:10:57.400+0100 to 2018-02-06T22:12:00.403+0100
+2018-02-06 22:13:03.405 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2998.0 to 2992.0
+2018-02-06 22:13:03.406 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:12:00.403+0100 to 2018-02-06T22:13:03.400+0100
+2018-02-06 22:14:06.408 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2992.0 to 2997.0
+2018-02-06 22:14:06.410 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:13:03.400+0100 to 2018-02-06T22:14:06.402+0100
+2018-02-06 22:15:09.419 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_latency changed from 2997.0 to 2993.0
+2018-02-06 22:15:09.420 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:14:06.402+0100 to 2018-02-06T22:15:09.402+0100
+2018-02-06 22:16:12.407 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:15:09.402+0100 to 2018-02-06T22:16:12.402+0100
+2018-02-06 22:17:15.412 [vent.ItemStateChangedEvent] - network_pingdevice_32fbef31_lastseen changed from 2018-02-06T22:16:12.402+0100 to 2018-02-06T22:17:15.402+0100
+2018-02-06 22:17:49.941 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from ONLINE to UNINITIALIZED
+2018-02-06 22:17:49.951 [hingStatusInfoChangedEvent] - 'network:pingdevice:32fbef31' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2018-02-06 22:17:50.072 [temChannelLinkRemovedEvent] - Link 'network_pingdevice_32fbef31_online => network:pingdevice:32fbef31:online' has been removed.
+2018-02-06 22:17:50.073 [temChannelLinkRemovedEvent] - Link 'network_pingdevice_32fbef31_latency => network:pingdevice:32fbef31:latency' has been removed.
+2018-02-06 22:17:50.073 [temChannelLinkRemovedEvent] - Link 'network_pingdevice_32fbef31_lastseen => network:pingdevice:32fbef31:lastseen' has been removed.

@@ -1,0 +1,831 @@
+2018-02-06 20:05:38.443 [INFO ] [er.internal.HomeBuilderDashboardTile] - Started Home Builder at /homebuilder
+2018-02-06 20:05:39.012 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to pl_PL, Location set to null, Time zone set to Europe/Ljubljana
+2018-02-06 20:05:40.358 [WARN ] [g.eclipse.smarthome.core.net.NetUtil] - Found multiple local interfaces - ignoring 192.168.56.1
+2018-02-06 20:05:40.769 [WARN ] [g.eclipse.smarthome.core.net.NetUtil] - Found multiple local interfaces - ignoring 192.168.56.1
+2018-02-06 20:05:40.910 [INFO ] [.dashboard.internal.DashboardService] - Started dashboard at http://192.168.0.4:8080
+2018-02-06 20:05:40.910 [INFO ] [.dashboard.internal.DashboardService] - Started dashboard at https://192.168.0.4:8443
+2018-02-06 20:05:41.128 [WARN ] [ig.xml.osgi.XmlDocumentBundleTracker] - The XML document '/ESH-INF/binding/binding.xml' in module 'org.openhab.binding.network' could not be parsed: The XmlConfigDescriptionProvider must not be null!
+java.lang.IllegalArgumentException: The XmlConfigDescriptionProvider must not be null!
+	at org.eclipse.smarthome.core.binding.xml.internal.BindingInfoXmlProvider.<init>(BindingInfoXmlProvider.java:60) [112:org.eclipse.smarthome.core.binding.xml:0.10.0.b1]
+	at org.eclipse.smarthome.core.binding.xml.internal.XmlBindingInfoProvider.createDocumentProvider(XmlBindingInfoProvider.java:141) [112:org.eclipse.smarthome.core.binding.xml:0.10.0.b1]
+	at org.eclipse.smarthome.config.xml.osgi.XmlDocumentBundleTracker.acquireXmlDocumentProvider(XmlDocumentBundleTracker.java:181) [108:org.eclipse.smarthome.config.xml:0.10.0.b1]
+	at org.eclipse.smarthome.config.xml.osgi.XmlDocumentBundleTracker.addingObject(XmlDocumentBundleTracker.java:206) [108:org.eclipse.smarthome.config.xml:0.10.0.b1]
+	at org.eclipse.smarthome.config.xml.osgi.XmlDocumentBundleTracker.parseDocuments(XmlDocumentBundleTracker.java:350) [108:org.eclipse.smarthome.config.xml:0.10.0.b1]
+	at org.eclipse.smarthome.config.xml.osgi.XmlDocumentBundleTracker.processBundle(XmlDocumentBundleTracker.java:336) [108:org.eclipse.smarthome.config.xml:0.10.0.b1]
+	at org.eclipse.smarthome.config.xml.osgi.XmlDocumentBundleTracker.access$3(XmlDocumentBundleTracker.java:331) [108:org.eclipse.smarthome.config.xml:0.10.0.b1]
+	at org.eclipse.smarthome.config.xml.osgi.XmlDocumentBundleTracker$2.run(XmlDocumentBundleTracker.java:307) [108:org.eclipse.smarthome.config.xml:0.10.0.b1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:05:45.264 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'switches.items' has errors, therefore ignoring it: [1,43]: mismatched input 'Group' expecting RULE_ID
+[1,48]: mismatched input ')' expecting RULE_ID
+[1,59]: mismatched input '=' expecting RULE_ID
+[2,60]: mismatched input 'Group' expecting RULE_ID
+[2,65]: mismatched input ')' expecting RULE_ID
+[2,76]: mismatched input '=' expecting RULE_ID
+
+2018-02-06 20:05:47.005 [INFO ] [thome.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2018-02-06 20:05:47.371 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'Osmeckiego.sitemap'
+2018-02-06 20:05:47.829 [WARN ] [lipse.smarthome.io.net.exec.ExecUtil] - Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "arping" (in directory "."): CreateProcess error=2, Nie mo¿na odnaleŸæ okreœlonego pliku)
+2018-02-06 20:05:47.845 [INFO ] [ternal.dhcp.DHCPPacketListenerServer] - DHCP request packet listener online
+2018-02-06 20:05:49.134 [INFO ] [basic.internal.servlet.WebAppServlet] - Started Basic UI at /basicui/app
+2018-02-06 20:05:49.213 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Started Paper UI at /paperui
+2018-02-06 20:05:49.264 [INFO ] [panel.internal.HABPanelDashboardTile] - Started HABPanel at /habpanel
+2018-02-06 20:05:57.345 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Presence_KubowyVibe'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Presence_KubowyVibe' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:05:57.347 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:05:57.348 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:05:57.349 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:05:57.350 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:05:57.350 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:05:57.351 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'SR_MainLight'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'SR_MainLight' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:05:57.352 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:05:57.352 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:05:57.353 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:05:57.353 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:05:57.353 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:06:12.649 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:06:13.473 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:06:24.144 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/SR_MainLight' for the unknown item 'SR_MainLight'.
+2018-02-06 20:06:24.795 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:06:25.426 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:06:26.155 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/SR_MainLight' for the unknown item 'SR_MainLight'.
+2018-02-06 20:06:58.087 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:07:06.673 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:07:06.996 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:07:07.347 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:07:07.704 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:07:41.543 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:07:41.840 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:07:56.087 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:07:56.371 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:08:04.924 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:08:05.139 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:08:05.366 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Presence_KubowyVibe' for the unknown item 'Presence_KubowyVibe'.
+2018-02-06 20:09:11.144 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'switches.items' has errors, therefore ignoring it: [1,43]: mismatched input 'Group' expecting RULE_ID
+[1,48]: mismatched input ')' expecting RULE_ID
+[1,59]: mismatched input '=' expecting RULE_ID
+[2,39]: mismatched input 'Group' expecting RULE_ID
+[2,44]: mismatched input ')' expecting RULE_ID
+[2,55]: mismatched input '=' expecting RULE_ID
+[3,60]: mismatched input 'Group' expecting RULE_ID
+[3,65]: mismatched input ')' expecting RULE_ID
+[3,76]: mismatched input '=' expecting RULE_ID
+
+2018-02-06 20:09:11.162 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'switches.items' has errors, therefore ignoring it: [1,43]: mismatched input 'Group' expecting RULE_ID
+[1,48]: mismatched input ')' expecting RULE_ID
+[1,59]: mismatched input '=' expecting RULE_ID
+[2,39]: mismatched input 'Group' expecting RULE_ID
+[2,44]: mismatched input ')' expecting RULE_ID
+[2,55]: mismatched input '=' expecting RULE_ID
+[3,60]: mismatched input 'Group' expecting RULE_ID
+[3,65]: mismatched input ')' expecting RULE_ID
+[3,76]: mismatched input '=' expecting RULE_ID
+
+2018-02-06 20:10:54.755 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'Osmeckiego.sitemap'
+2018-02-06 20:10:54.769 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'Osmeckiego.sitemap'
+2018-02-06 20:10:54.818 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Presence_KubowyVibe'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Presence_KubowyVibe' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:10:54.821 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.822 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.824 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.825 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.825 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.826 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Item_ID'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Item_ID' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:10:54.833 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.834 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.835 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.835 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.836 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.837 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'SR_MainLight'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'SR_MainLight' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:10:54.842 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.843 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.844 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.844 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:54.845 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.481 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'Osmeckiego.sitemap'
+2018-02-06 20:10:59.498 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'Osmeckiego.sitemap'
+2018-02-06 20:10:59.539 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Presence_KubowyVibe'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Presence_KubowyVibe' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:10:59.541 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.541 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.542 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.543 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.543 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.544 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Item_ID1'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Item_ID1' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:10:59.545 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID1' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.545 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.546 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID1' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.546 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID1' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.547 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID1' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.548 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'SR_MainLight'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'SR_MainLight' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:10:59.549 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.549 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.550 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.550 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:10:59.551 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:11:09.897 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Item_ID1' for the unknown item 'Item_ID1'.
+2018-02-06 20:11:10.450 [INFO ] [rest.core.internal.item.ItemResource] - Received HTTP POST request at 'items/Item_ID1' for the unknown item 'Item_ID1'.
+2018-02-06 20:13:15.445 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'Osmeckiego.sitemap'
+2018-02-06 20:13:15.463 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'Osmeckiego.sitemap'
+2018-02-06 20:13:15.514 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Presence_KubowyVibe'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Presence_KubowyVibe' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:13:15.516 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:15.517 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:15.517 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:15.518 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:15.518 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:15.519 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'SR_MainLight'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'SR_MainLight' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:13:15.520 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:15.521 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:15.522 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:15.522 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:15.523 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:19.749 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Presence_KubowyVibe'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Presence_KubowyVibe' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:13:19.751 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:19.752 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:19.752 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:19.753 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:19.754 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:19.754 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'SR_MainLight'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'SR_MainLight' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:13:19.756 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:19.757 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:19.757 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:19.758 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:19.758 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.362 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'Osmeckiego.sitemap'
+2018-02-06 20:13:41.393 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'Osmeckiego.sitemap'
+2018-02-06 20:13:41.433 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Presence_KubowyVibe'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Presence_KubowyVibe' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:13:41.435 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.436 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.436 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.437 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.437 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.438 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Item_ID1'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Item_ID1' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:13:41.439 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID1' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.439 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.440 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID1' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.440 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID1' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.440 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID1' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.441 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'SR_MainLight'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'SR_MainLight' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:13:41.443 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.443 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.444 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.445 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:13:41.445 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:57.942 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'Osmeckiego.sitemap'
+2018-02-06 20:19:57.957 [INFO ] [el.core.internal.ModelRepositoryImpl] - Refreshing model 'Osmeckiego.sitemap'
+2018-02-06 20:19:57.992 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Presence_KubowyVibe'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Presence_KubowyVibe' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:19:57.993 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:57.994 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:57.994 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:57.995 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:57.995 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Presence_KubowyVibe' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:57.996 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'Item_ID1'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Item_ID1' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:19:57.997 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID1' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:57.998 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:57.998 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID1' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:57.999 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID1' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:58.000 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Item_ID1' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:58.001 [WARN ] [basic.internal.render.SwitchRenderer] - Cannot determine item type of 'SR_MainLight'
+org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'SR_MainLight' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:70) [109:org.eclipse.smarthome.core:0.10.0.b1]
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:724) [155:org.eclipse.smarthome.ui:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:55) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:172) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:137) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:158) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:100) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:159) [196:org.eclipse.smarthome.ui.basic:0.10.0.b1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [85:org.eclipse.jetty.security:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:284) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [88:org.eclipse.jetty.servlet:9.3.22.v20171030]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [191:org.ops4j.pax.web.pax-web-jetty:6.0.7]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:333) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [87:org.eclipse.jetty.server:9.3.22.v20171030]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [79:org.eclipse.jetty.io:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [90:org.eclipse.jetty.util:9.3.22.v20171030]
+	at java.lang.Thread.run(Thread.java:748) [?:?]
+2018-02-06 20:19:58.002 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:58.003 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:58.004 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:58.004 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 20:19:58.005 [ERROR] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'SR_MainLight' for widget org.eclipse.smarthome.model.sitemap.Switch
+2018-02-06 22:04:07.667 [INFO ] [work.internal.dhcp.DHCPListenService] - DHCP request for unknown address: 192.168.0.5
+2018-02-06 22:17:29.848 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2018-02-06 22:17:50.157 [INFO ] [arthome.ui.paper.internal.PaperUIApp] - Stopped Paper UI
+2018-02-06 22:17:50.198 [INFO ] [panel.internal.HABPanelDashboardTile] - Stopped HABPanel
+2018-02-06 22:17:50.204 [INFO ] [er.internal.HomeBuilderDashboardTile] - Stopped Home Builder
+2018-02-06 22:17:50.213 [INFO ] [.dashboard.internal.DashboardService] - Stopped dashboard

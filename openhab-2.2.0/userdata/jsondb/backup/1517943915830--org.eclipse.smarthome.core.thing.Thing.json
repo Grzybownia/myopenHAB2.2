@@ -1,0 +1,116 @@
+{
+  "network:pingdevice:32fbef31": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "KubowyVibe",
+      "channels": [
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "network",
+              "pingdevice",
+              "32fbef31",
+              "online"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "network",
+              "online"
+            ]
+          },
+          "label": "Online",
+          "description": "States whether a device is online or offline",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "network",
+              "pingdevice",
+              "32fbef31",
+              "latency"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "network",
+              "latency"
+            ]
+          },
+          "label": "Latency (ms)",
+          "description": "States the latency time in milliseconds",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "DateTime",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "network",
+              "pingdevice",
+              "32fbef31",
+              "lastseen"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "network",
+              "lastseen"
+            ]
+          },
+          "label": "Last seen",
+          "description": "States the last seen date/time",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "hostname": "192.168.0.122",
+          "refresh_interval": 60000,
+          "retry": 1,
+          "timeout": 5000
+        }
+      },
+      "properties": {
+        "uses_dhcp_listen": "no",
+        "dhcp_state": "Running normally",
+        "presence_detection_type": "",
+        "arp_state": "Disabled",
+        "uses_ios_wakeup": "On",
+        "icmp_state": "WINDOWS_PING",
+        "uses_arp_pings": "no"
+      },
+      "uid": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "32fbef31"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "pingdevice"
+        ]
+      },
+      "location": "Osmeckiego"
+    }
+  }
+}

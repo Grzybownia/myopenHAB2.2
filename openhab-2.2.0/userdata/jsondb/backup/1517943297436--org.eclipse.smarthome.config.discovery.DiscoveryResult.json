@@ -1,0 +1,54 @@
+{
+  "network:servicedevice:192_168_56_1_80": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "network",
+          "servicedevice",
+          "192_168_56_1_80"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "servicedevice"
+        ]
+      },
+      "properties": {
+        "port": 80,
+        "hostname": "192.168.56.1"
+      },
+      "flag": "NEW",
+      "label": "Device providing a Webserver (192.168.56.1:80)",
+      "timestamp": 1517942713774,
+      "timeToLive": 600
+    }
+  },
+  "network:servicedevice:192_168_56_1_554": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "network",
+          "servicedevice",
+          "192_168_56_1_554"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "servicedevice"
+        ]
+      },
+      "properties": {
+        "port": 554,
+        "hostname": "192.168.56.1"
+      },
+      "flag": "NEW",
+      "label": "Device providing Network/Samba Shares (192.168.56.1:554)",
+      "timestamp": 1517942713775,
+      "timeToLive": 600
+    }
+  }
+}

@@ -1,0 +1,65 @@
+sitemap Osmeckiego label="Osmeckiego" {
+    Frame label="rozne" icon="keyring" {
+        // Text item=Item label="Swiatlo sufit"
+        Switch item=Presence_KubowyVibe label="Presence_KubowyVibe"
+        Switch item=Item_ID1 label="Item Label"
+    }
+    Frame label="Maly pokoj" icon="keyring" {
+        Switch item=SR_MainLight label="SR_MainLight"
+    }
+/* 
+contact w piwnicy
+contact na balkonie
+korytarz
+    contak w drziwach wejsciowych
+
+maly pookj
+    lampa sufit
+    lampa ula biurko
+    lampa kuba biurko
+    lutownica
+
+duzy pokoj
+    lampa sufit
+    drzwi przesuwne
+    kwadralampa
+    ekran
+    rzutnik
+
+kuchnia
+    przedluzacz w kuchni - plyta zmywarka itp
+    przedluzacz czajnik
+    czajnik
+    lampa
+
+korytarz
+    lampy obie
+    ruch przy drzwiach
+
+lazienka
+    wilgotnosc
+    lampy obie
+
+ */
+
+
+    // Frame label="Duzy pokoj" icon="party"{
+        
+    // }
+    // Frame label="Kuchnia" icon="keyring"{
+        
+    // }
+    // Frame label="Lazienka" icon="keyring"{
+        
+    // }
+    // Frame label="Balkon" icon="terrace"{
+        
+    // }
+    // Frame label="Korytarz" icon="corridor"{
+        
+    // }
+    // Frame label="Piwnica" icon="cellar"{
+        
+    // }
+    
+}
